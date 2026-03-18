@@ -1,0 +1,211 @@
+/* ---- FOUNDATION ---- */
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background: #d5dbe5;
+  color: #cfd2d8;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* ----- LOGO ----- */
+.logo {
+  width: 70px;
+  height: auto;
+  margin-left: 15px;
+  float: left;
+}
+
+/* --- HEADER --- */
+header {
+  background: #142a4c;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* ----- NAVIGATION ----- */
+nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 12px;
+  background-color: #1e2a38;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: #81a7c9;
+  color: #dde4e6;
+  transform: scale(1.1);
+}
+
+/* ----- MAIN CONTENT ----- */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* ----- SECTIONS ----- */
+section {
+  background: #1c1c2c;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+/* ----- HEADINGS ----- */
+h2 {
+  color: #fbfcfc;
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+
+/* ---- PARAGRAPHS ----- */
+p {
+ 
+  font-size: 1.05rem;
+  margin-bottom: 15px;
+}
+
+/* ----- BULLET LISTS ----- */
+.bullet-list {
+  text-decoration: none;
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* ----- IMAGES ----- */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+/* ----- TABLES ----- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #444;
+  color: #fff;
+}
+
+/* ----- FORMS ----- */
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background: #1e2a38;
+  color: #e0e6f1;
+}
+
+fieldset {
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend {
+  padding: 0 5px;
+}
+
+.resource {
+  color: #dde7ea;      /* same color as your links */
+  text-decoration: none; /* no underline */
+  cursor: default;      /* removes the pointer hand */
+}
+
+.required {
+  color: red;
+  font-weight: bold;
+}
+
+/* ----- COLUMNS ----- */
+.columns {
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 1px solid #444;
+}
+/*---- Aside Column bottom left howItworks---*/
+.aside-columns h3 { /* header only */
+  background: #444;
+  color: white;
+  padding: 5px;
+}
+.aside-columns p {
+  background: #354058;
+  color: white;
+  padding: 5px;
+}
+
+/* ----- FOOTER ----- */
+footer {
+  background: #142a4c;
+  color: #a4b0be;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 8px;
+}
+
+footer nav a {
+  color: #fff;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+
+
+/* ----- TOP / BOTTOM LINKS ----- */
+.top-link, .bottom-link {
+  display: inline-block;
+  margin: 10px 0;
+  color: #141617;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.top-link:hover, .bottom-link:hover {
+  color: #9bb5cf;
+}
